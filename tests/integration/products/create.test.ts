@@ -9,7 +9,7 @@ chai.use(chaiHttp);
 
 describe('POST /products', function () { 
   beforeEach(function () { sinon.restore(); });
-  it.only('Should register a product successfully', async function  () {
+  it('Should register a product successfully', async function  () {
     const httpRequestBody = productMock.productValid
 
     const mockCreatedReturn = ProductModel.build(productMock.createProductFromDB);
