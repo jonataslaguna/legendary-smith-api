@@ -1,0 +1,97 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Legendary Smith",
+    "dateExported": "2023-12-19T17:14:32.159Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "6de35a10-7e8f-4ffd-ac67-e9668ed0cee1",
+            "name": "Products",
+            "containerId": "",
+            "created": "2023-11-21T13:21:50.584Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "a6da958c-8ce0-415e-8d17-608f2ecf3756",
+            "name": "Orders",
+            "containerId": "",
+            "created": "2023-11-21T13:22:00.803Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "38b26a4b-fb5c-439d-97d2-d271bf727609",
+            "name": "Login",
+            "containerId": "",
+            "created": "2023-11-21T16:36:54.257Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "7a3763a3-d44f-49e5-acfb-bca8ce81a70c",
+            "colId": "1b6d19d6-4ccb-4448-8615-a4d33d1ee7f6",
+            "containerId": "6de35a10-7e8f-4ffd-ac67-e9668ed0cee1",
+            "name": "Create Product",
+            "url": "http://localhost:3001/products",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-11-20T18:13:41.511Z",
+            "modified": "2023-11-21T20:25:39.291Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Martelo de Thor\",\n  \"price\": \"30 peças de ouro\",\n  \"orderId\": 4\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "492a05a3-6bdb-407a-9a6d-12439f5d62d7",
+            "colId": "1b6d19d6-4ccb-4448-8615-a4d33d1ee7f6",
+            "containerId": "6de35a10-7e8f-4ffd-ac67-e9668ed0cee1",
+            "name": "List Products",
+            "url": "http://localhost:3001/products",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-20T19:56:52.551Z",
+            "modified": "2023-11-20T19:56:57.983Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1654cfda-368e-4317-b8af-45507cd75909",
+            "colId": "1b6d19d6-4ccb-4448-8615-a4d33d1ee7f6",
+            "containerId": "a6da958c-8ce0-415e-8d17-608f2ecf3756",
+            "name": "List Orders",
+            "url": "http://localhost:3001/orders",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-21T13:22:09.927Z",
+            "modified": "2023-11-21T13:22:22.107Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "08c941de-d0f0-4983-b848-b1afb94c11c6",
+            "colId": "1b6d19d6-4ccb-4448-8615-a4d33d1ee7f6",
+            "containerId": "38b26a4b-fb5c-439d-97d2-d271bf727609",
+            "name": "Login",
+            "url": "http://localhost:3001/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-21T16:37:09.071Z",
+            "modified": "2023-11-21T16:55:53.029Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Hagar\",\n  \"password\": \"terrível\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
