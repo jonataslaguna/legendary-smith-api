@@ -7,9 +7,9 @@ Loja de itens medievais personalizados, no formato de uma _API_, utilizando _Typ
 <details>
   <summary><strong>🐳 Especificações sobre uso do Docker</strong></summary>
 
-```bash
-# Após clonar o repositório, navegue até a raíz do projeto e instale as dependências com o comando:
+#### Após clonar o repositório, navegue até a raíz do projeto e instale as dependências com o comando:
 
+```bash
 npm install
 ```
 
