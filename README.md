@@ -1,6 +1,6 @@
 # Lendary Smith API
 
-Loja de itens medievais personalizados, no formato de uma _API_, utilizando _Typescript_ e _Sequelize_. A aplicação comtém _endpoints_ que dão suporte a operações de criação, leitura e atualização de informações. Além de utilizar _JWT_ para autenticar algumas rotas.
+Loja de itens medievais personalizados, no formato de uma _API_, utilizando _Typescript_ e _Sequelize_. A aplicação contém _endpoints_ que dão suporte a operações de criação, leitura e atualização de informações. Além de utilizar _JWT_ para autenticar algumas rotas.
 
 ## Instalação e Como Utilizar
 
