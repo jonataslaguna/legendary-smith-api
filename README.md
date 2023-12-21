@@ -63,7 +63,7 @@ npm install
   
     ```json
     {
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJIYWdhciIsImlhdCI6MTcwMzAwMzQ2NX0.j8Qo_KM8MfqJW-3U71RsMri13uUnplZMmvwEc_ARL9c"
+      "token": "eyJhbGciOiJI[...]"
     }
     ```
 
